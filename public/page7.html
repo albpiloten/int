@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>BankID</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <script>(function(){function a(){window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.setAttribute("data-theme","dark"):document.documentElement.removeAttribute("data-theme")}a();window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",a)})();</script>
   <link rel="stylesheet" type="text/css" href="/kodebrikke_files/bid_202602110902.css">
   <style>
     body { margin: 0; background: #fff; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; }
@@ -11,6 +13,9 @@
     .Cbrq5-nkab0- { width: min(450px, 100%); display: flex; justify-content: center; margin-top: -14px; }
     .qRkl-QO8NSU- { height: 32px; padding: 0 16px; border-radius: 24px; border: 1px solid transparent; background: transparent; color: #000; font-size: 14px; font-weight: 400; text-decoration: underline; cursor: pointer; }
     @media (prefers-color-scheme: dark) {
+      html, body { background: var(--bgColor-backdrop-merchant, #141e29) !important; }
+      #app, .Lua4ap2uGkQ-, .O5xZsmVjdmo- { background-color: var(--bgColor-backdrop-merchant, #141e29) !important; }
+      .AZhftGJX1fQ- { background-color: var(--bgColor-default, #1e2b3c) !important; }
       .qRkl-QO8NSU- {
         background-color: transparent !important;
         color: #fff !important;
