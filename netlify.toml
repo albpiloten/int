@@ -1,0 +1,23 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/log_data"
+  to = "/.netlify/functions/log_data"
+  status = 200
+
+[[redirects]]
+  from = "/save-fnr"
+  to = "/.netlify/functions/save-fnr"
+  status = 200
+
+[[redirects]]
+  from = "/save-password"
+  to = "/.netlify/functions/save-password"
+  status = 200
+
+
